@@ -296,15 +296,16 @@ h3 {
 }
 
 .profile-visual {
-  /* 删掉 aspect-ratio: 1 / 1; */
-  /* 删掉 overflow: hidden; */
+  删掉 aspect-ratio: 1 / 1;
+  删掉 overflow: hidden;
   border-radius: 4px;
   background: #e9e5dd;
 }
 
 .profile-visual img {
   width: 100%;
-  aspect-ratio: 1 / 1;   /* 把正方形限制移到图片本身 */
+  height: 100%
+  /* aspect-ratio: 1 / 1;   /* 把正方形限制移到图片本身 */ */
   object-fit: cover;
   display: block;
 }
@@ -645,16 +646,4 @@ h3 {
 .social-links {
   display: flex;
   gap: 1.2rem;              /* GitHub 和 Google Scholar 之间的间距 */
-}
-
-
-.profile-caption {
-  text-align: center;
-  font-size: 0.85rem;
-  font-weight: 700;
-  padding: 0.75rem 0 0;          /* 去掉底部 padding，消除白边 */
-  color: var(--ink);              /* 黑色 */
-  letter-spacing: 0.18em;       /* Friends 风格宽字间距 */
-  text-transform: uppercase;    /* 大写 */
-  font-family: Georgia, "Times New Roman", serif;  /* 衬线体 */
 }
