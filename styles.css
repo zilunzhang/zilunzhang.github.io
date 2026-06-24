@@ -645,19 +645,3 @@ h3 {
   display: flex;
   gap: 1.2rem;              /* GitHub 和 Google Scholar 之间的间距 */
 }
-
-/* 如果用了 figcaption */
-.profile-visual figcaption,
-.profile-caption {
-  text-align: center;
-  font-size: 0.9rem;
-  font-weight: 500;
-  margin-top: 0.6rem;
-  color: #555;
-  letter-spacing: 0.05em;
-}
-
-/* 让 figure 本身没有默认外边距 */
-.profile-visual {
-  margin: 0;
-}
