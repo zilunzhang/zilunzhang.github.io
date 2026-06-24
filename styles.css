@@ -627,3 +627,21 @@ h3 {
     text-decoration: none;
   }
 }
+
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* 居中对齐，若需左对齐改为 flex-start */
+  gap: 0.6rem;              /* 两行之间的间距 */
+}
+
+.contact-email a {
+  font-size: 1.05rem;
+  /* 如需让邮箱更醒目，可取消下面注释 */
+  /* font-weight: 500; */
+}
+
+.social-links {
+  display: flex;
+  gap: 1.2rem;              /* GitHub 和 Google Scholar 之间的间距 */
+}
