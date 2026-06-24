@@ -651,9 +651,10 @@ h3 {
 .profile-caption {
   text-align: center;
   font-size: 0.85rem;
-  font-weight: 600;
-  padding: 0.75rem 0;
-  color: var(--muted);
-  letter-spacing: 0.08em;
-  background: var(--surface);
+  font-weight: 700;
+  padding: 0.75rem 0 0;          /* 去掉底部 padding，消除白边 */
+  color: var(--ink);              /* 黑色 */
+  letter-spacing: 0.18em;       /* Friends 风格宽字间距 */
+  text-transform: uppercase;    /* 大写 */
+  font-family: Georgia, "Times New Roman", serif;  /* 衬线体 */
 }
